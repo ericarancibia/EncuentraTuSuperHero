@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Bangers', cursive;
+    background-color: #07264d;
+    color: white;
+}
+
+nav {
+    background-color: #230338;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.custom-input-width {
+    width: 70px; 
+    font-size: 25px; 
+}
+
+input {
+    margin-top: 17px;
+}
+
+button {
+    margin-top: 26px;
+}
+
+#superhero-card .card-header{
+    background-color: #230338;
+    font-size: 2.2rem;
+}
+
+@media (max-width: 768px) {
+    label {
+        font-size: 20px; 
+        text-align: center; 
+    }
+}
